@@ -1,0 +1,2080 @@
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
+Course Outline for
+INF2009F
+Systems Analysis and Design
+2019
+TIMES & VENUES
+Monday-Wednesday: 4th period (John Day LT1)
+Thursdays: Select an option from these:
+Option 1: 3rd & 4th – SNAPE DO 2
+Option 2: 4th & 5th – CS203
+Option 3: 8th & 9th – JORDAN 4A
+*Please aware of venue changes – this will be communicated on vula and in lecture
+period
+INSTRUCTORS
+Emeritus A/Prof Elsje Scott (Course Convenor & Lecturer)
+Office: 3rd floor, Leslie Commerce Building
+Email: elsje.scott@uct.ac.za
+Office Hours: Tue 8:00-10:30, Mon – Tue: 12:00 – 14:00, or on appointment
+Ms Ayanda (PhD Candidate & Lecturer)
+Office: Room 3.31, 3rd floor, Leslie Commerce Building
+Email: ayanda.pekane@uct.ac.za
+Office Phone: +27 21 650 4693
+Office Hours: 9:00-16:00
+ADMINISTRATOR
+Ms Natasha Samuels
+Office: Room 3.02.1 (reception), 3rd floor, Leslie Commerce Building
+Email: natasha.samuels@uct.ac.za
+Tel: +27 21 650 5910
+Office Hours: 9:00-16:00
+OVERVIEW
+INF2009F is a half course designed for students intending to major in Information Systems or
+Computer Science for the BCom, BBusSci or Bsc degrees, although students pursuing other
+computing degrees may be accepted, space permitting.
+This course is intended to provide students with an in-depth understanding of the front end of
+the systems development life cycle. There are some practical components to the course, where
+students will be taught to use the common tools of systems analysis. These tools and techniques
+include scoping, risk analysis, feasibility assessment, and techniques commonly used in object 
+Department of Information Systems 2019
+INF2009F 2
+oriented systems modeling including package, activity, use case, class, interaction and state
+machine diagrams. Mastering the systems development process is both a complex and time
+consuming exercise and the course follows a three stage approach to developing the required
+proficiency:
+• Stage 1 is to understand the theory and body of knowledge underpinning the systems
+development process, particularly the systems analysis phase. This will be achieved
+through the flipped classroom approach, where students will be provided with short
+videos, lecture notes and important reading materials. The lecture will then be dedicated
+to short class exercises, discussions and brainstorming sessions.
+• Stage 2 is to work in groups to apply the theory to a real world example. This will be done
+in the workshops where students step through the problem solving process with the
+support of tutors where required.
+• Stage 3 is to work together in your teams of two, in your own time, to complete each
+exercise started in the workshops in order to develop the two main deliverables for the
+course – a Business Case and User Requirements Specification.
+INF2009F is closely linked to INF2011S and students continuing to this second semester course
+will implement parts of an information system based on these user requirements. In doing so a
+candidate enrolled for both courses will have completed the whole systems development life
+cycle (SDLC) by the end of the year.
+It is important to note that although this course includes substantial theoretical content that
+students are required to master, students will be expected to apply the acquired theoretical
+knowledge in exams, workshops and class exercises to solve real-world problems. The
+underlying purpose is always to link theory and practice, preparing students for professional
+practice at the end of their studies.
+LEARNING OBJECTIVES AND EXPECTED OUTCOMES
+On completion of this module the student should be able to:
+• Understand the main concepts supporting the Object Oriented paradigm including classes
+and instances, association, encapsulation, message-passing, information hiding,
+collaboration, aggregation and inheritance.
+• Explain the key role of a Systems Analyst/Business Analyst in business.
+• Understand and describe the systems development life cycle (SDLC) and how it can be
+used to manage the systems development effort.
+• Describe the context of the analysis, design and implementation stages within the SDLC.
+• Describe the different overall approaches used to develop information systems.
+• Explain the many reasons for creating Information Systems models.
+• Develop a Business Case to identify problems in a particular business area and context
+and to recommend a strategy to solving these problems.
+• Document functional requirements with Use Case diagrams and Use Case narratives.
+• Model workflows and business processes using Activity diagrams.
+• Develop a Domain Class Diagram to document the major concepts in the system and refine
+this model to represent the logical software classes (Analysis Class Diagram)
+• Realise Use Case interactions using Sequence diagrams.
+• Document message passing at the user interface using System Sequence Diagrams and
+object behaviour using State Machine diagrams.
+• Understand how the various tools and techniques relate to each other.
+Department of Information Systems 2019
+INF2009F 3
+• Develop a detailed User Requirements Specification document.
+CONTENT AND TEACHING FORMAT
+Lectures
+The Lectures follow a Flipped Classroom Model. Lectures will comprise of class exercises, group
+discussion and brainstorming sessions. Students are thus required to watch the videos and
+cover the notes available on Vula prior to the lecture, to fully and productively engage with
+the class exercises and discussion sessions.
+The topics to be covered are listed in the lecture schedule document and the Vula Lesson Plans.
+PLEASE NOTE: IMPORTANT ANNOUNCEMENTS ABOUT THE COURSE MATERIAL, TUTORIALS,
+TESTS, EXAMS AND PROJECTS, WILL BE MADE DURING LECTURES AND WORKSHOPS FROM
+TIME TO TIME. WHILE SOME OF THIS INFORMATION WILL ALSO BE POSTED ON THE INF2009F
+VULA SITE, STUDENTS WHO SKIP LECTURES DO SO AT THEIR OWN RISK.
+Workshops
+Students will be working in teams of two for the project and in groups of four in the workshops
+(two teams together). Weekly workshop sessions will be held on most Thursdays (see detailed
+schedule for exact dates) as follows:
+• Option 1: 3rd & 4th – SNAPE DO 2
+• Option 2: 4th & 5th – CS203
+• Option 3: 8th & 9th – JORDAN 1C
+At the end of each workshop each group will submit a solution for review and which will be
+returned at the next workshop. Marks obtained from the workshop submissions will count
+towards the end-of-year mark.
+PLEASE NOTE: STUDENTS WHO FAIL TO ATTEND AT LEAST 80% OF WORKSHOPS WILL BE
+REFUSED PERMISSION TO WRITE THE FINAL EXAM (DPR).
+Class Exercises
+Students will be required to complete class exercises which counts 10% of the final marks. 80%
+of the class exercises should be completed for DP. Class Exercises are to be submitted at the end
+of the lecture. Formative feedback will be given for each submission.
+Late submissions will not be accepted.
+Projects and Assignments
+Students will be required to complete the analysis phase of a significant systems development
+project. This will entail the construction of two documents (a Business Case and a User
+Requirements Specification document). Students will work in teams in the workshops and in
+their own time to complete their project assignments. Based on the analysis completed in
+INF2009F, students will design and implement an information system in the second semester
+(INF2011S) in order to complete the whole systems development life cycle (SDLC).
+Examinations and Tests
+Department of Information Systems 2019
+INF2009F 4
+There is a two-hour test scheduled on the 25th of April at 16:00 and a three-hour final examination
+in June (dates will be published later). Exams and tests are not open-book.
+COURSE MATERIALS
+The recommended text for the course is:
+Introduction to Systems Analysis and Design in a Changing World, 7th Edition
+by John W. Satzinger, Robert B. Jackson, Stephen D. Burd
+Other suitable texts may be recommended during lectures. Notes deemed necessary will be made
+available during lectures and workshops throughout the course. Students are required to cover
+ALL course related material posted on the Vula site (specifically the Lesson plans). These would
+include short videos, articles, lecture notes and book chapters. It is important that students
+familiarise themselves of the theoretical content contained in these elements, PRIOR to the
+lecture.
+STUDENT DELIVERABLES
+The deliverables (quizzes, class exercises, workshops and the two major assignments) as
+specified above, need to be submitted electronically on Vula. No exemptions will be granted and
+all deliverables need to be handed in for DP purposes. Students need to read the department and
+UCT guide to plagiarism and acknowledge the plagiarism declaration for all deliverables.
+Due dates for all deliverables are documented in the schedule and on the individual assignment
+handouts. In the interests of those students who plan their work well and work efficiently and
+steadily throughout the course, absolutely no individual extensions will be given on any
+deadlines, for any reason whatsoever. In cases where substantial and unavoidable disruption
+to the academic year has occurred, deadlines may be altered for the entire class, at the discretion
+of the course co-ordinator.
+Deliverables submitted on, or before, the deadline will be marked without penalty. Deliverables
+handed in after deadlines will incur an automatic and non-negotiable penalty deduction of 5%
+per day, or part thereof. Deliverables handed in more than five days late will not be marked and
+the student will receive 0%.
+ASSESSMENT
+There is a mid-semester test and a final examination at the end of the course. If a student is
+exempted for the test, the weight of this mark will be added to the final examination. The graded
+activities and percentage contribution towards the final mark is as follows.
+Activity Percentage
+Workshops 10%
+Class Exercises, quizzes 10%
+April Test 15%
+Assignments 15%
+Final Examination 50%
+Department of Information Systems 2019
+INF2009F 5
+DP REQUIREMENTS
+In order to be permitted to sit the final exam in INF2009F students must have:
+• attended and participated in at least 80 % of the workshops
+• submitted at least 80% of the class exercises
+• completed at least 80% of quizzes
+• obtained a sub-minimum of 40% for their year mark prior to the final exam
+• submitted all project work
+In order to pass INF2009F students must
+• Obtain a sub-minimum of 45% in the final examination
+• Obtain 50% overall for the course
+Please note that 65% of the course mark is obtained under exam conditions; and where a student
+is exempted from the term test, their final exam weighting will be increased to 65%.
+Students who are thinking of proceeding to IS Honours: should be aiming to average at least 65%
+in the IS2 and IS3 semester courses to be reasonably sure of being offered a place on the Honours
+course.
+ACADEMIC HONESTY
+Your attention is drawn to the UCT regulations, which govern academic progress. In particular,
+your attention is drawn to:
+1. All forms of cheating, plagiarism, collusion or interference with other students’ academic
+work and performance will be reported to the Head of Department who will:
+a. Impose a penalty with respect to the assessment of the course, or
+b. If considered an act of grave misconduct, refer the case to the Tribunal.
+All students are responsible to inform themselves about these regulations before performing any
+academic work. See the Senate policy on plagiarism.
+The Department of Information Systems considers plagiarism to be the deliberate passing off
+of another person’s work as though it was your own, and will NOT be tolerated. At the very
+least, you would get zero for your work, and we would request that you withdraw from the
+Information Systems major. In cases where blatant copying has taken place, we would take
+disciplinary action, which could result in suspension or expulsion from UCT.
+Since so much of the course mark is awarded for work done outside of our direct control, a great
+deal of trust is involved. We therefore view plagiarism in the same way as we do cheating in
+examinations. Similar rules apply to all student work such as projects, essays and other
+assignments.
+Some examples of what we would consider to be plagiarism are:
+• You downloaded material from the Internet and submitted it as your own work.
+• You acquired assignments from previous year’s students and used them as your own
+work.
+• Someone else wrote all (or part of) the assignment or project for you, either as a favour
+or for some kind of reward.
+Department of Information Systems 2019
+INF2009F 6
+LAB RULES AND POLICIES
+Please respect other students when using the Alumni labs. Students are expected to keep noise
+levels down to acceptable standards. All students are responsible to inform themselves about the
+Appropriate Use of Computer Facilities policy. Students must obey the lab rules and defer to the
+lab supervisor at all times.
+Note: This course outline is a general plan for the course; deviations announced to the class by
+the instructor may be necessary.
+GETTING THROUGH INF2009F
+Some students approach a course believing that they can get through just by working hard at the
+end of the semester to prepare for the final exams. INF2009F covers too much work for this to
+be a sensible approach, and such students will usually fail. The emphasis in workshops and exams
+is on applying theoretical knowledge, not regurgitating it! An attempt to study at the end of the
+course without having applied the various tools and techniques doesn’t really help. If you have
+not worked steadily through the workshops and the assignments during the semester, you will
+find the examinations incomprehensible.
+On the other hand, students who work hard throughout the course should approach the final
+exam with a good year mark, and a comfortable feeling that they are already on top of the subject!
+Revising for the final exam is still necessary, but it becomes more of a process of refreshing your
+memory rather than grappling with new and difficult techniques.
+Key success factors to making INF2009F one of the most worthwhile and enjoyable courses you
+will do in your degree are:
+• Attend lectures, even if you have had a late night, or don’t find all the lectures stimulating.
+• Complete class exercises and engage in class discussions.
+• Attend workshops. They are the best way to move from theory to practice and ensure you
+can apply the required techniques. If you find them easy, then this is an indicator that the
+exams will not be difficult for you.
+• Do your two project assignments as well as you can. A good year mark takes lots of
+pressure off you.
+• DONT PROCRASTINATE. Start working on your assignments as soon as you receive them.
+Remember that there are no extensions. Also, remember that there is strong demand for
+computer laboratory resources towards deadlines.
+• Speak to your lecturer or tutor EARLY if you are having problems with the material. But
+don’t go to them at the last minute when it is too late to remedy the situation.
+• Form a study group with fellow students so that you can support each other and help each
+other with difficult parts of the course.
+• We encourage group discussion and support, but it is important that each student works
+with and understands every aspect of the course. Students will be using the tools and
+techniques introduced in INF2009F in delivering a major project in third year and
+honours. Your expertise in systems development is probably the most critical skill set
+you will take out of university into the IT profession. It is therefore important that both
+members of a team work on all parts of every deliverable – don’t split the work between
+you so that each member can see half the total picture. Obviously one team member might
+complete the final drawing of a particular model, but both should be involved in the rough
+drafts where the real understanding happens.
+Department of Information Systems 2019
+INF2009F 7
+• Beware PLAGARISM. Each team must submit its own documentation. It is very easy to
+see where students are copying rather than doing their own work as each marker
+evaluates the same section across all the deliverables. Where groups are found to have
+copied from other students, both groups will be penalised. This is likely to result in a
+mark of zero being given to both groups with the potential for further action where
+appropriate. You will be required to submit a declaration saying the deliverable is all
+your own work and details of the format of this statement will follow later. Visit UCT
+web site to familiarise yourself with the university’s plagiarism policies.
+(http://www.commerce.uct.ac.za/InformationSystems/Plagiarism/).
+WELCOME TO THE COURSE. WORK HARD. ENJOY THE YEAR.
